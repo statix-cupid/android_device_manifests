@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="stx-gitlab" revision="vic" fetch="https://gitlab.com/StatiXOS" />
+
+    <!-- Device trees -->
+    <project path="device/xiaomi/cupid" name="platform_device_xiaomi_cupid" remote="statix" revision="vic" />
+    <project path="device/xiaomi/sm8450-common" name="platform_device_xiaomi_sm8450-common" remote="statix" revision="vic" />
+
+    <!-- Prebuilt kernel -->
+    <project path="device/xiaomi/cupid-kernel" name="platform_device_xiaomi_cupid-kernel" remote="statix" revision="vic" />
+
+    <!-- MiCamera -->
+    <project path="vendor/xiaomi/cupid-camera" name="platform_vendor_xiaomi_cupid-camera" remote="stx-gitlab" revision="vic" />
+
+    <!-- vendor/hardware/xiaomi -->
+    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="statix" revision="vic" />
+
+    <!-- Vendor repositories -->
+    <project path="vendor/xiaomi/cupid" name="proprietary_vendor_xiaomi_cupid" remote="stx-gitlab" revision="vic" />
+    <project path="vendor/xiaomi/sm8450-common" name="proprietary_vendor_xiaomi_sm8450-common" remote="stx-gitlab" revision="vic" />
+    
+</manifest>
